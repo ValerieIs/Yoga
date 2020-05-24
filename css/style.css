@@ -492,7 +492,6 @@ header ul li:before {
 }
 .content .more {
   display: block;
-  margin: 0 auto;
   margin-top: 60px;
   width: 250px;
   height: 60px;
@@ -502,6 +501,11 @@ header ul li:before {
   color: #c78030;
   cursor: pointer;
 }
+
+button.more {
+  margin: 0 auto;
+}
+
 .content .more:hover {
   box-shadow: 0 0 10px #c78030;
 }
